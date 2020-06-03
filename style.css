@@ -1,100 +1,100 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 html {
-    scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
 }
 
 body {
-    background-color: rgb(242, 252, 255) !important;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: "Raleway", sans-serif !important;
+  background-color: rgb(242, 252, 255) !important;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif !important;
 }
 
 .job-section {
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
 }
 
 .tags {
-    font-size: 13px;
-    /* border: 1px solid red !important; */
+  font-size: 13px;
+  /* border: 1px solid red !important; */
 }
 
 ul.tag-list {
-    list-style: none;
-    padding: 20px;
-    padding-left: 0;
+  list-style: none;
+  /* padding: 20px; */
+  padding-left: 0;
 }
 
 ul.tag-list li {
-    display: inline;
+  display: inline;
 }
 
 ul.tag-list li label {
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 2px solid rgba(139, 139, 139, 0.3);
-    color: black;
-    border-radius: 25px;
-    white-space: nowrap;
-    margin: 3px 0px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-    transition: all 0.2s;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(139, 139, 139, 0.3);
+  color: black;
+  border-radius: 25px;
+  white-space: nowrap;
+  margin: 3px 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 0.2s;
 }
 
 ul.tag-list li label {
-    padding: 8px 12px;
-    cursor: pointer;
+  padding: 8px 12px;
+  cursor: pointer;
 }
 
 ul.tag-list li label::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    /* font-family: "Font Awesome 5 Free"; */
-    font-weight: 900;
-    font-size: 12px;
-    padding: 2px 6px 2px 2px;
-    /* content: "\f067" !important; */
-    transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  /* font-family: "Font Awesome 5 Free"; */
+  font-weight: 900;
+  font-size: 12px;
+  padding: 2px 6px 2px 2px;
+  /* content: "\f067" !important; */
+  transition: transform 0.3s ease-in-out;
 }
 
-ul.tag-list li input[type="checkbox"]:checked+label {
-    border: 2px solid rgba(172, 210, 235, 0.5);
-    background-color: rgba(172, 210, 235, 0.5);
-    color: black;
-    transition: all 0.2s;
-}
-
-ul.tag-list li input[type="checkbox"] {
-    display: absolute;
+ul.tag-list li input[type="checkbox"]:checked + label {
+  border: 2px solid rgba(172, 210, 235, 0.5);
+  background-color: rgba(172, 210, 235, 0.5);
+  color: black;
+  transition: all 0.2s;
 }
 
 ul.tag-list li input[type="checkbox"] {
-    position: absolute;
-    opacity: 0;
+  display: absolute;
 }
 
-ul.tag-list li input[type="checkbox"]:focus+label {
-    border: 2px solid rgba(172, 210, 235, 0.5);
+ul.tag-list li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
 }
 
+ul.tag-list li input[type="checkbox"]:focus + label {
+  border: 2px solid rgba(172, 210, 235, 0.5);
+}
 
 @media only screen and (max-width: 768px) {
-    .job-section {
-        width: 92%;
-        /* margin: auto; */
-    }
+  .job-section {
+    width: 92%;
+    /* margin: auto; */
+  }
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+}
