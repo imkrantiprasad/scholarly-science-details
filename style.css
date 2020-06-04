@@ -33,6 +33,27 @@ ul.tag-list li {
   display: inline;
 }
 
+label {
+  font-weight: 400 !important;
+}
+
+.skill-section h2 {
+  margin-bottom: 20px;
+}
+
+.form-part {
+  margin-bottom: 40px;
+}
+
+select {
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.skill-group {
+  margin-bottom: 20px;
+}
+
 ul.tag-list li label {
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.9);
@@ -69,7 +90,7 @@ ul.tag-list li label::before {
   transition: transform 0.3s ease-in-out;
 }
 
-ul.tag-list li input[type="checkbox"]:checked + label {
+ul.tag-list li input[type="checkbox"]:checked+label {
   border: 2px solid rgba(172, 210, 235, 0.5);
   background-color: rgba(172, 210, 235, 0.5);
   color: black;
@@ -85,8 +106,15 @@ ul.tag-list li input[type="checkbox"] {
   opacity: 0;
 }
 
-ul.tag-list li input[type="checkbox"]:focus + label {
+ul.tag-list li input[type="checkbox"]:focus+label {
   border: 2px solid rgba(172, 210, 235, 0.5);
+}
+
+.skill-section {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -94,7 +122,14 @@ ul.tag-list li input[type="checkbox"]:focus + label {
     width: 92%;
     /* margin: auto; */
   }
+
+  .skill {
+    width: 50% !important;
+  }
+
+  .level {
+    width: 50% !important;
+  }
 }
 
-@media screen and (max-width: 600px) {
-}
+@media screen and (max-width: 600px) {}
