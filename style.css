@@ -161,7 +161,7 @@ ul.tag-list li input[type="checkbox"]:focus + label {
   font-size: 14px;
   line-height: 20px;
   color: black;
-  padding: 5px 5px 0;
+  padding: 5px 12px 0;
   border: 1px solid #e6e6e6;
   border-radius: 25px;
 }
