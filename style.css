@@ -152,12 +152,6 @@ ul.tag-list li input[type="checkbox"]:focus+label {
   width: 100%;
 }
 
-.btn-div {
-  width: 80%;
-  margin: auto !important;
-  /* border: 1px solid red; */
-}
-
 .button {
   background: linear-gradient(to right, #0066cc 0%, #66ffff 100%);
   border: none;
