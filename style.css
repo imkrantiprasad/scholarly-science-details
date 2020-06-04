@@ -45,6 +45,10 @@ label {
   margin-bottom: 40px;
 }
 
+.form-part p {
+  margin-left: -15px;
+}
+
 select {
   padding: 8px 12px;
   border-radius: 25px;
@@ -112,7 +116,7 @@ ul.tag-list li label::before {
   transition: transform 0.3s ease-in-out;
 }
 
-ul.tag-list li input[type="checkbox"]:checked + label {
+ul.tag-list li input[type="checkbox"]:checked+label {
   border: 2px solid rgba(172, 210, 235, 0.5);
   background-color: rgba(172, 210, 235, 0.5);
   color: black;
@@ -128,7 +132,7 @@ ul.tag-list li input[type="checkbox"] {
   opacity: 0;
 }
 
-ul.tag-list li input[type="checkbox"]:focus + label {
+ul.tag-list li input[type="checkbox"]:focus+label {
   border: 2px solid rgba(172, 210, 235, 0.5);
 }
 
@@ -157,13 +161,13 @@ ul.tag-list li input[type="checkbox"]:focus + label {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   background: rgba(255, 255, 255, 0.9);
-  font-family: sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: black;
   padding: 5px 12px 0;
   border: 1px solid #e6e6e6;
   border-radius: 25px;
+  margin-left: 0;
 }
 
 .tagsinput.focus {
@@ -240,7 +244,7 @@ ul.tag-list li input[type="checkbox"]:focus + label {
 }
 
 .tagsinput div input.error {
-  color: white;
+  color: black;
 }
 
 .tagsinput div input::-ms-clear {
@@ -282,5 +286,4 @@ ul.tag-list li input[type="checkbox"]:focus + label {
   }
 }
 
-@media screen and (max-width: 600px) {
-}
+@media screen and (max-width: 600px) {}
