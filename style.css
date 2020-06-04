@@ -48,7 +48,8 @@ label {
 select {
   padding: 8px 12px;
   border-radius: 25px;
-  color: white;
+  /* color: white; */
+  background-color: white;
 }
 
 .skill-group {
