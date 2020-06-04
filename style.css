@@ -152,6 +152,35 @@ ul.tag-list li input[type="checkbox"]:focus+label {
   width: 100%;
 }
 
+.btn-div {
+  width: 80%;
+  margin: auto !important;
+  /* border: 1px solid red; */
+}
+
+.button {
+  background: linear-gradient(to right, #0066cc 0%, #66ffff 100%);
+  border: none;
+  padding: 10px 0px;
+  width: 180px;
+  border-radius: 25px;
+  margin: auto !important;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #66ffff 0%, #0066cc 100%);
+}
+
+.button:focus,
+.button:active:focus,
+.button.active:focus,
+.button.focus,
+.button:active.focus,
+.button.active.focus {
+  outline: none;
+  outline: 0;
+}
+
 .tagsinput {
   display: -webkit-box;
   display: -webkit-flex;

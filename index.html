@@ -30,14 +30,14 @@
     <div class="row">
       <div class="text col-md-4"></div>
       <div class="option col-md-8">
-        <div class="job-section">
-          <h2>What's your dream job?</h2>
-          <p>
-            Your next job should be on your terms. Set your perferences and get
-            in front of the best opportunities for you!
-          </p>
-          <div class="tags">
-            <form>
+        <form>
+          <div class="job-section">
+            <h2>What's your dream job?</h2>
+            <p>
+              Your next job should be on your terms. Set your perferences and
+              get in front of the best opportunities for you!
+            </p>
+            <div class="tags">
               <ul class="tag-list">
                 <li>
                   <input
@@ -129,31 +129,41 @@
                   /><label for="checkboxTwelve">Software Engineering</label>
                 </li>
               </ul>
-            </form>
-          </div>
-        </div>
-
-        <!-- skill-section -->
-        <div class="skill-section">
-          <!-- <h2>Add your skills.</h2> -->
-          <div class="form-part col-md-8">
-            <p>Which describes you the best?</p>
-            <input
-              type="radio"
-              id="professional"
-              name="work-type"
-              value="professional"
-            />
-            <label for="professional">I am a working professional </label><br />
-            <input type="radio" id="fresher" name="work-type" value="fresher" />
-            <label for="fresher">I am a fresher</label><br />
-            <input type="radio" id="student" name="work-type" value="student" />
-            <label for="fresher">I am a student</label><br />
+            </div>
           </div>
 
-          <div class="form-part col-md-8">
-            <p>Add your preferred roles:</p>
-            <!-- <select name="roles" id="roles">
+          <!-- skill-section -->
+          <div class="skill-section">
+            <!-- <h2>Add your skills.</h2> -->
+            <div class="form-part col-md-8">
+              <p>Which describes you the best?</p>
+              <input
+                type="radio"
+                id="professional"
+                name="work-type"
+                value="professional"
+              />
+              <label for="professional">I am a working professional </label
+              ><br />
+              <input
+                type="radio"
+                id="fresher"
+                name="work-type"
+                value="fresher"
+              />
+              <label for="fresher">I am a fresher</label><br />
+              <input
+                type="radio"
+                id="student"
+                name="work-type"
+                value="student"
+              />
+              <label for="fresher">I am a student</label><br />
+            </div>
+
+            <div class="form-part col-md-8">
+              <p>Add your preferred roles:</p>
+              <!-- <select name="roles" id="roles">
               <optgroup label="Software Engineering">
                 <option value="Backend">Backend Development</option>
                 <option value="frontend">Frontend Development</option>
@@ -163,13 +173,13 @@
                 <option value="Graphics">Graphics Design</option>
               </optgroup>
             </select> -->
-            <!-- <select
+              <!-- <select
               class="selectpicker show-menu-arrow"
               data-style="form-control"
               data-live-search="true"
               title="-- Select your coffee --"
               multiple="multiple"
-            >
+              >
               <option data-tokens="Espresso">Espresso</option>
               <option data-tokens="Americano">Americano</option>
               <option data-tokens="Mocha">Mocha</option>
@@ -178,22 +188,22 @@
               <option data-tokens="Long Black">Long Black</option>
               <option data-tokens="Macchiato">Macchiato</option>
             </select> -->
-            <div class="roles">
-              <input id="form-tags-1" name="tags-1" type="text" value="" />
+              <div class="roles">
+                <input id="form-tags-1" name="tags-1" type="text" value="" />
+              </div>
             </div>
-          </div>
-          <div class="form-part col-md-8">
-            <p>
-              Add up to 10 skills (e.g, HTML, Java-Script).
-            </p>
-            <input id="form-tags-3" name="tags-3" type="text" value="" />
-            <!-- <div class="col-sm-3 skill">
-                <select
+            <div class="form-part col-md-8">
+              <p>
+                Add up to 10 skills (e.g, HTML, Java-Script).
+              </p>
+              <input id="form-tags-3" name="tags-3" type="text" value="" />
+              <!-- <div class="col-sm-3 skill">
+              <select
                   class="show-menu-arrow"
                   data-style="form-control"
                   data-live-search="true"
                   title="e.g. Java"
-                >
+                  >
                   <option value="" disabled selected>Pick a skill</option>
                   <option data-tokens="Java">Java</option>
                   <option data-tokens="HTML">HTML</option>
@@ -219,8 +229,18 @@
                   <option>Expert</option>
                 </select>
               </div> -->
+            </div>
+            <div class="col-md-12">
+              <!-- <div class="btn-div"> -->
+              <div class="col-md-4"></div>
+              <div class="btn-div col-md-4">
+                <button type="submit" class="button">Next Step</button>
+              </div>
+              <div class="col-md-4"></div>
+              <!-- </div> -->
+            </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
