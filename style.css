@@ -199,7 +199,7 @@ ul.tag-list li input[type="checkbox"]:focus + label {
 }
 
 #wechat-id {
-  background-color: rgb(63, 240, 39);
+  background-color: #2f8819;
   color: white;
 }
 
@@ -209,7 +209,7 @@ ul.tag-list li input[type="checkbox"]:focus + label {
 }
 
 #dribbble-id {
-  background-color: rgb(204, 11, 140);
+  background-color: #ea4c89;
   color: white;
 }
 
