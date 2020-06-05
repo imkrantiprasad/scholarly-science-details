@@ -15,7 +15,7 @@ body {
 }
 
 .job-section {
-  /* width: 100%; */
+  width: 80%;
   /* margin: 1px solid red !important; */
   margin: auto;
   margin-top: 40px;
@@ -26,8 +26,12 @@ p {
 }
 
 .tags {
-  font-size: 13px;
+  font-size: 14px;
   /* border: 1px solid red !important; */
+}
+
+.form-part {
+  font-size: 14px !important;
 }
 
 ul.tag-list {
@@ -119,7 +123,7 @@ ul.tag-list li label::before {
   -webkit-font-smoothing: antialiased;
   /* font-family: "Font Awesome 5 Free"; */
   font-weight: 900;
-  font-size: 12px;
+  font-size: 14px !important;
   padding: 2px 6px 2px 2px;
   /* content: "\f067" !important; */
   transition: transform 0.3s ease-in-out;
@@ -147,14 +151,14 @@ ul.tag-list li input[type="checkbox"]:focus + label {
 
 .skill-section {
   /* border: 1px solid red; */
-  /* width: 80%; */
+  width: 80%;
   margin: auto;
   margin-top: 40px;
 }
 
 .web-section {
   /* border: 1px solid red; */
-  /* width: 80%; */
+  width: 80%;
   margin: auto;
   margin-top: 40px;
 }
@@ -217,8 +221,8 @@ ul.tag-list li input[type="checkbox"]:focus + label {
   border: 1px solid rgb(218, 213, 213);
   background-color: white;
   /* border-radius: 25px; */
-  padding: 5px 12px 0;
-  float: right;
+  padding: 5px 5px;
+  /* float: right; */
   /* margin-top: 5px; */
 }
 
@@ -415,13 +419,13 @@ ul.tag-list li input[type="checkbox"]:focus + label {
 
   .social-input {
     width: 150px;
-    float: right;
+    /* float: right; */
   }
 }
 
 @media screen and (max-width: 600px) {
   .social-input {
     width: 100px;
-    float: right;
+    /* float: right; */
   }
 }

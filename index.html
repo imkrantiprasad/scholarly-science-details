@@ -147,6 +147,18 @@
           <!-- skill-section -->
           <div class="skill-section">
             <div class="form-part col-md-8">
+              <p>Add your preferred roles:</p>
+              <div class="roles">
+                <input id="form-tags-1" name="tags-1" type="text" value="" />
+              </div>
+            </div>
+            <div class="form-part col-md-8">
+              <p>
+                Add up to 10 skills (e.g, HTML, Java-Script).
+              </p>
+              <input id="form-tags-3" name="tags-3" type="text" value="" />
+            </div>
+            <div class="form-part col-md-8">
               <p>Which describes you the best?</p>
               <input
                 type="radio"
@@ -170,19 +182,6 @@
                 value="student"
               />
               <label for="fresher">I am a student</label><br />
-            </div>
-
-            <div class="form-part col-md-8">
-              <p>Add your preferred roles:</p>
-              <div class="roles">
-                <input id="form-tags-1" name="tags-1" type="text" value="" />
-              </div>
-            </div>
-            <div class="form-part col-md-8">
-              <p>
-                Add up to 10 skills (e.g, HTML, Java-Script).
-              </p>
-              <input id="form-tags-3" name="tags-3" type="text" value="" />
             </div>
           </div>
           <div class="web-section">
@@ -270,7 +269,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "LinedIn URL: <input type='url' class='social-input' id='newInputBox'>";
+            "<input type='url' class='social-input' placeholder='LinkedIn URL..' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newLinkedin").appendChild(txtNewInputBox);
@@ -287,7 +286,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "GitHub URL: <input type='url' class='social-input' id='newInputBox'>";
+            "<input type='url' class='social-input' placeholder='GitHub URL..' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newGithub").appendChild(txtNewInputBox);
@@ -304,7 +303,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "WeChat ID: <input type='number' class='social-input' id='newInputBox'>";
+            "<input type='number' class='social-input' placeholder='WeChat URL..' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newWechat").appendChild(txtNewInputBox);
@@ -321,7 +320,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "Line ID: <input type='number' class='social-input' id='newInputBox'>";
+            "<input type='number' class='social-input' placeholder='Line URL..' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newLine").appendChild(txtNewInputBox);
@@ -338,7 +337,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "Drribbble URL: <input type='url' class='social-input' id='newInputBox'>";
+            "<input type='url' class='social-input' placeholder='Dribbble URL..' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newDribble").appendChild(txtNewInputBox);
@@ -355,7 +354,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "Portfolio URL: <input type='text' class='social-input' id='newInputBox'>";
+            "<input type='text' class='social-input' placeholder='Portfolio URL..' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newOther").appendChild(txtNewInputBox);
