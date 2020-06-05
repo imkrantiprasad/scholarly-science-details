@@ -185,6 +185,89 @@
               <input id="form-tags-3" name="tags-3" type="text" value="" />
             </div>
           </div>
+          <div class="web-section">
+            <div class="form-part col-md-8">
+              <p>Add your social media URL/IDs:</p>
+              <div class="row social-box" id="">
+                <div class="col-xs-4">
+                  <button
+                    type="button"
+                    class="social"
+                    value="Create Element"
+                    onclick="linkedin();"
+                  >
+                    LinkedIn:
+                  </button>
+                </div>
+                <div class="col-xs-8" id="newLinkedin"></div>
+              </div>
+              <div class="row social-box" id="">
+                <div class="col-xs-4 social-btn">
+                  <button
+                    type="button"
+                    class="social"
+                    value="Create Element"
+                    onclick="github();"
+                  >
+                    GitHub:
+                  </button>
+                </div>
+                <div class="col-xs-8 social-in" id="newGithub"></div>
+              </div>
+              <div class="row social-box" id="">
+                <div class="col-xs-4">
+                  <button
+                    type="button"
+                    class="social"
+                    value="Create Element"
+                    onclick="weChat();"
+                  >
+                    WeChat:
+                  </button>
+                </div>
+                <div class="col-xs-8" id="newWechat"></div>
+              </div>
+              <div class="row social-box" id="">
+                <div class="col-xs-4">
+                  <button
+                    type="button"
+                    class="social"
+                    value="Create Element"
+                    onclick="line();"
+                  >
+                    Line:
+                  </button>
+                </div>
+                <div class="col-xs-8" id="newLine"></div>
+              </div>
+              <div class="row social-box" id="">
+                <div class="col-xs-4">
+                  <button
+                    type="button"
+                    class="social"
+                    value="Create Element"
+                    onclick="dribble();"
+                  >
+                    Dribbble:
+                  </button>
+                </div>
+                <div class="col-xs-8" id="newDribble"></div>
+              </div>
+              <div class="row social-box" id="">
+                <div class="col-xs-4">
+                  <button
+                    type="button"
+                    class="social"
+                    value="Create Element"
+                    onclick="other();"
+                  >
+                    Other:
+                  </button>
+                </div>
+                <div class="col-xs-8" id="newOther"></div>
+              </div>
+            </div>
+          </div>
           <!-- <button type="submit">Button</button> -->
         </form>
       </div>
@@ -192,6 +275,108 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>
+    <script>
+      var i = 0;
+      function linkedin() {
+        if (i == 0) {
+          // First create a DIV element.
+          var txtNewInputBox = document.createElement("div");
+
+          // Then add the content (a new input box) of the element.
+          txtNewInputBox.innerHTML =
+            "<input type='text' class='social-input' id='newInputBox'>";
+
+          // Finally put it where it is supposed to appear.
+          document.getElementById("newLinkedin").appendChild(txtNewInputBox);
+        }
+        i++;
+      }
+    </script>
+    <script>
+      var j = 0;
+      function github() {
+        if (j == 0) {
+          // First create a DIV element.
+          var txtNewInputBox = document.createElement("div");
+
+          // Then add the content (a new input box) of the element.
+          txtNewInputBox.innerHTML =
+            "<input type='text' class='social-input' id='newInputBox'>";
+
+          // Finally put it where it is supposed to appear.
+          document.getElementById("newGithub").appendChild(txtNewInputBox);
+        }
+        j++;
+      }
+    </script>
+    <script>
+      var k = 0;
+      function weChat() {
+        if (k == 0) {
+          // First create a DIV element.
+          var txtNewInputBox = document.createElement("div");
+
+          // Then add the content (a new input box) of the element.
+          txtNewInputBox.innerHTML =
+            "<input type='text' class='social-input' id='newInputBox'>";
+
+          // Finally put it where it is supposed to appear.
+          document.getElementById("newWechat").appendChild(txtNewInputBox);
+        }
+        k++;
+      }
+    </script>
+    <script>
+      var l = 0;
+      function line() {
+        if (l == 0) {
+          // First create a DIV element.
+          var txtNewInputBox = document.createElement("div");
+
+          // Then add the content (a new input box) of the element.
+          txtNewInputBox.innerHTML =
+            "<input type='text' class='social-input' id='newInputBox'>";
+
+          // Finally put it where it is supposed to appear.
+          document.getElementById("newLine").appendChild(txtNewInputBox);
+        }
+        l++;
+      }
+    </script>
+    <script>
+      var m = 0;
+      function dribble() {
+        if (m == 0) {
+          // First create a DIV element.
+          var txtNewInputBox = document.createElement("div");
+
+          // Then add the content (a new input box) of the element.
+          txtNewInputBox.innerHTML =
+            "<input type='text' class='social-input' id='newInputBox'>";
+
+          // Finally put it where it is supposed to appear.
+          document.getElementById("newDribble").appendChild(txtNewInputBox);
+        }
+        m++;
+      }
+    </script>
+    <script>
+      var n = 0;
+      function other() {
+        if (n == 0) {
+          // First create a DIV element.
+          var txtNewInputBox = document.createElement("div");
+
+          // Then add the content (a new input box) of the element.
+          txtNewInputBox.innerHTML =
+            "<input type='text' class='social-input' id='newInputBox'>";
+
+          // Finally put it where it is supposed to appear.
+          document.getElementById("newOther").appendChild(txtNewInputBox);
+        }
+        n++;
+      }
+    </script>
     <script>
       $(".facetwp-dropdown").attr("data-style", "form-control");
       $(".facetwp-dropdown").attr("data-live-search", "true");

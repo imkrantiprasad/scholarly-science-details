@@ -43,10 +43,12 @@ label {
 
 .form-part {
   margin-bottom: 40px;
+  /* border: 1px solid red; */
 }
 
 .form-part p {
   margin-left: -15px;
+  /* border: 1px solid red; */
 }
 
 select {
@@ -143,6 +145,13 @@ ul.tag-list li input[type="checkbox"]:focus+label {
   margin-top: 40px;
 }
 
+.web-section {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
 .tagsinput,
 .tagsinput * {
   box-sizing: border-box;
@@ -150,6 +159,30 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 
 .roles {
   width: 100%;
+}
+
+.social-box {
+  width: 100% !important;
+  margin: auto !important;
+  margin-bottom: 30px !important;
+}
+
+.social {
+  width: 120px;
+  border: none;
+  /* padding: 10px 0px; */
+  background-color: rgb(242, 252, 255);
+  text-align: left;
+  /* border-radius: 25px; */
+  /* transition: all 1s ease-in-out; */
+}
+
+.social-input {
+  border: 1px solid rgb(218, 213, 213);
+  background-color: white;
+  /* border-radius: 25px; */
+  padding: 5px 12px 0;
+  /* margin-top: 5px; */
 }
 
 .button {
@@ -163,6 +196,26 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 
 .button:hover {
   background: linear-gradient(to right, #66ffff 0%, #0066cc 100%);
+}
+
+.social-input,
+.social-input:active:focus,
+.social-input.active:focus,
+.social-input.focus,
+.social-input:active.focus,
+.social-input.active.focus {
+  outline: none;
+  outline: 0;
+}
+
+.social:focus,
+.social:active:focus,
+.social.active:focus,
+.social.focus,
+.social:active.focus,
+.social.active.focus {
+  outline: none;
+  outline: 0;
 }
 
 .button:focus,
@@ -307,6 +360,24 @@ ul.tag-list li input[type="checkbox"]:focus+label {
   .level {
     width: 50% !important;
   }
+
+  .social-btn {
+    width: 40%;
+  }
+
+  .social-in {
+    width: 60%;
+  }
+
+  .social-input {
+    width: 150px;
+    float: right;
+  }
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+  .social-input {
+    width: 100px;
+    float: right;
+  }
+}
