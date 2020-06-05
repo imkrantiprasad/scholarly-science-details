@@ -31,7 +31,7 @@ p {
 }
 
 .form-part {
-  font-size: 14px !important;
+  /* font-size: 14px !important; */
 }
 
 ul.tag-list {
@@ -59,7 +59,13 @@ label {
 
 .form-part p {
   margin-left: -15px;
+  font-size: 18px !important;
   /* border: 1px solid red; */
+}
+
+.form-part label {
+  font-size: 14px;
+  padding: 0px 5px;
 }
 
 select {
@@ -223,6 +229,7 @@ ul.tag-list li input[type="checkbox"]:focus + label {
   background-color: white;
   /* border-radius: 25px; */
   padding: 5px 5px;
+  width: 300px;
   /* float: right; */
   /* margin-top: 5px; */
 }
@@ -418,15 +425,15 @@ ul.tag-list li input[type="checkbox"]:focus + label {
     width: 60%;
   }
 
-  /* .social-input {
+  .social-input {
     width: 250px;
-    float: right;
-  } */
+    /* float: right; */
+  }
 }
 
 @media screen and (max-width: 600px) {
-  /* .social-input {
+  .social-input {
     width: 200px;
-    float: right;
-  } */
+    /* float: right; */
+  }
 }
