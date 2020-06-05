@@ -168,14 +168,12 @@ ul.tag-list li input[type="checkbox"]:focus + label {
 }
 
 .social {
-  /* width: 120px; */
   border: none;
-  /* padding: 10px 0px; */
-  /* background-color: rgb(242, 252, 255); */
-  /* text-align: left; */
-  /* border-radius: 25px; */
-  /* transition: all 1s ease-in-out; */
   margin-bottom: 4px;
+}
+
+.social-input-div {
+  margin-top: 15px;
 }
 
 #Linkedin {
@@ -213,6 +211,7 @@ ul.tag-list li input[type="checkbox"]:focus + label {
   background-color: white;
   /* border-radius: 25px; */
   padding: 5px 12px 0;
+  float: right;
   /* margin-top: 5px; */
 }
 
