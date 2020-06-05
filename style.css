@@ -181,6 +181,7 @@ ul.tag-list li input[type="checkbox"]:focus + label {
 .social {
   border: none;
   margin-bottom: 4px;
+  padding: 5px 10px;
 }
 
 .social-input-div {
@@ -417,15 +418,15 @@ ul.tag-list li input[type="checkbox"]:focus + label {
     width: 60%;
   }
 
-  .social-input {
-    /* width: 250px; */
-    /* float: right; */
-  }
+  /* .social-input {
+    width: 250px;
+    float: right;
+  } */
 }
 
 @media screen and (max-width: 600px) {
-  .social-input {
-    /* width: 200px; */
-    /* float: right; */
-  }
+  /* .social-input {
+    width: 200px;
+    float: right;
+  } */
 }
