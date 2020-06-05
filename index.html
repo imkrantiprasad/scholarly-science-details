@@ -187,84 +187,70 @@
           </div>
           <div class="web-section">
             <div class="form-part col-md-8">
-              <p>Add your social media URL/IDs:</p>
+              <p>On the web</p>
               <div class="row social-box" id="">
-                <div class="col-xs-4">
+                <div class="col-md-12">
                   <button
                     type="button"
                     class="social"
+                    id="Linkedin"
                     value="Create Element"
                     onclick="linkedin();"
                   >
-                    LinkedIn:
+                    LinkedIn
                   </button>
-                </div>
-                <div class="col-xs-8" id="newLinkedin"></div>
-              </div>
-              <div class="row social-box" id="">
-                <div class="col-xs-4 social-btn">
                   <button
                     type="button"
                     class="social"
+                    id="github-id"
                     value="Create Element"
                     onclick="github();"
                   >
-                    GitHub:
+                    GitHub
                   </button>
-                </div>
-                <div class="col-xs-8 social-in" id="newGithub"></div>
-              </div>
-              <div class="row social-box" id="">
-                <div class="col-xs-4">
                   <button
                     type="button"
                     class="social"
+                    id="wechat-id"
                     value="Create Element"
                     onclick="weChat();"
                   >
-                    WeChat:
+                    WeChat
                   </button>
-                </div>
-                <div class="col-xs-8" id="newWechat"></div>
-              </div>
-              <div class="row social-box" id="">
-                <div class="col-xs-4">
                   <button
                     type="button"
                     class="social"
+                    id="line-id"
                     value="Create Element"
                     onclick="line();"
                   >
-                    Line:
+                    Line
                   </button>
-                </div>
-                <div class="col-xs-8" id="newLine"></div>
-              </div>
-              <div class="row social-box" id="">
-                <div class="col-xs-4">
                   <button
                     type="button"
                     class="social"
+                    id="dribbble-id"
                     value="Create Element"
                     onclick="dribble();"
                   >
-                    Dribbble:
+                    Dribbble
                   </button>
-                </div>
-                <div class="col-xs-8" id="newDribble"></div>
-              </div>
-              <div class="row social-box" id="">
-                <div class="col-xs-4">
                   <button
                     type="button"
                     class="social"
+                    id="portfolio"
                     value="Create Element"
                     onclick="other();"
                   >
-                    Other:
+                    Portfolio
                   </button>
                 </div>
-                <div class="col-xs-8" id="newOther"></div>
+                <div class="col-md-12" id="newLinkedin"></div>
+                <div class="col-md-12" id="newGithub"></div>
+                <div class="col-md-12" id="newWechat"></div>
+                <div class="col-md-12" id="newLine"></div>
+                <div class="col-md-12" id="newDribble"></div>
+                <div class="col-md-12" id="newOther"></div>
               </div>
             </div>
           </div>
@@ -284,7 +270,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "<input type='text' class='social-input' id='newInputBox'>";
+            "LinedIn URL: <input type='url' class='social-input' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newLinkedin").appendChild(txtNewInputBox);
@@ -301,7 +287,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "<input type='text' class='social-input' id='newInputBox'>";
+            "GitHub URL: <input type='url' class='social-input' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newGithub").appendChild(txtNewInputBox);
@@ -318,7 +304,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "<input type='text' class='social-input' id='newInputBox'>";
+            "WeChat ID: <input type='number' class='social-input' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newWechat").appendChild(txtNewInputBox);
@@ -335,7 +321,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "<input type='text' class='social-input' id='newInputBox'>";
+            "Line ID: <input type='number' class='social-input' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newLine").appendChild(txtNewInputBox);
@@ -352,7 +338,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "<input type='text' class='social-input' id='newInputBox'>";
+            "Drribbble URL: <input type='url' class='social-input' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newDribble").appendChild(txtNewInputBox);
@@ -369,7 +355,7 @@
 
           // Then add the content (a new input box) of the element.
           txtNewInputBox.innerHTML =
-            "<input type='text' class='social-input' id='newInputBox'>";
+            "Portfolio URL: <input type='text' class='social-input' id='newInputBox'>";
 
           // Finally put it where it is supposed to appear.
           document.getElementById("newOther").appendChild(txtNewInputBox);

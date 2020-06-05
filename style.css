@@ -118,7 +118,7 @@ ul.tag-list li label::before {
   transition: transform 0.3s ease-in-out;
 }
 
-ul.tag-list li input[type="checkbox"]:checked+label {
+ul.tag-list li input[type="checkbox"]:checked + label {
   border: 2px solid rgba(172, 210, 235, 0.5);
   background-color: rgba(172, 210, 235, 0.5);
   color: black;
@@ -134,7 +134,7 @@ ul.tag-list li input[type="checkbox"] {
   opacity: 0;
 }
 
-ul.tag-list li input[type="checkbox"]:focus+label {
+ul.tag-list li input[type="checkbox"]:focus + label {
   border: 2px solid rgba(172, 210, 235, 0.5);
 }
 
@@ -168,13 +168,44 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 }
 
 .social {
-  width: 120px;
+  /* width: 120px; */
   border: none;
   /* padding: 10px 0px; */
-  background-color: rgb(242, 252, 255);
-  text-align: left;
+  /* background-color: rgb(242, 252, 255); */
+  /* text-align: left; */
   /* border-radius: 25px; */
   /* transition: all 1s ease-in-out; */
+  margin-bottom: 4px;
+}
+
+#Linkedin {
+  background-color: rgb(0, 78, 223);
+  color: white;
+}
+
+#github-id {
+  background-color: black;
+  color: white;
+}
+
+#wechat-id {
+  background-color: rgb(63, 240, 39);
+  color: white;
+}
+
+#line-id {
+  background-color: rgb(18, 148, 13);
+  color: white;
+}
+
+#dribbble-id {
+  background-color: rgb(204, 11, 140);
+  color: white;
+}
+
+#portfolio {
+  background-color: rgb(42, 160, 228);
+  color: white;
 }
 
 .social-input {
