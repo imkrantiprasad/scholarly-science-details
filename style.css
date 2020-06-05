@@ -18,6 +18,10 @@ body {
   margin-top: 40px;
 }
 
+p {
+  font-size: 20px;
+}
+
 .tags {
   font-size: 13px;
   /* border: 1px solid red !important; */
