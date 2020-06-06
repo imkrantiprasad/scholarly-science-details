@@ -25,7 +25,6 @@ body {
   width: 80%;
   /* margin: 1px solid red !important; */
   margin: auto;
-  margin-top: 40px;
 }
 
 p {
@@ -149,7 +148,7 @@ ul.tag-list li label::before {
   transition: transform 0.3s ease-in-out;
 }
 
-ul.tag-list li input[type="checkbox"]:checked+label {
+ul.tag-list li input[type="checkbox"]:checked + label {
   border: 2px solid rgba(172, 210, 235, 0.5);
   background-color: rgba(172, 210, 235, 0.5);
   color: black;
@@ -165,7 +164,7 @@ ul.tag-list li input[type="checkbox"] {
   opacity: 0;
 }
 
-ul.tag-list li input[type="checkbox"]:focus+label {
+ul.tag-list li input[type="checkbox"]:focus + label {
   border: 2px solid rgba(172, 210, 235, 0.5);
 }
 
@@ -414,7 +413,6 @@ ul.tag-list li input[type="checkbox"]:focus+label {
   /* width: 275px; */
   /* float: right; */
   /* } */
-
 }
 
 @media only screen and (max-width: 768px) {
