@@ -14,6 +14,28 @@ body {
   font-family: "Arimo", sans-serif;
 }
 
+.text {
+  /* position: relative; */
+  /* overflow-y: hidden; */
+  /* position: absolute; */
+}
+
+.text img {
+  /* width: 100%; */
+  width: 960px;
+  height: 900px;
+  margin-left: -270px;
+  margin-top: -70px;
+  position: fixed;
+  /* position: ; */
+  /* border: 1px solid red; */
+}
+
+.option {
+  /* border: 1px solid red; */
+
+}
+
 .job-section {
   width: 80%;
   /* margin: 1px solid red !important; */
@@ -148,7 +170,7 @@ ul.tag-list li label::before {
   transition: transform 0.3s ease-in-out;
 }
 
-ul.tag-list li input[type="checkbox"]:checked + label {
+ul.tag-list li input[type="checkbox"]:checked+label {
   border: 2px solid rgba(172, 210, 235, 0.5);
   background-color: rgba(172, 210, 235, 0.5);
   color: black;
@@ -164,7 +186,7 @@ ul.tag-list li input[type="checkbox"] {
   opacity: 0;
 }
 
-ul.tag-list li input[type="checkbox"]:focus + label {
+ul.tag-list li input[type="checkbox"]:focus+label {
   border: 2px solid rgba(172, 210, 235, 0.5);
 }
 
@@ -409,10 +431,14 @@ ul.tag-list li input[type="checkbox"]:focus + label {
 }
 
 @media only screen and (max-width: 1024px) {
+
   /* .social-input { */
   /* width: 275px; */
   /* float: right; */
   /* } */
+  .illus-img {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -446,14 +472,14 @@ ul.tag-list li input[type="checkbox"]:focus + label {
   }
 
   .social-input {
-    /* width: 275px; */
+    width: 275px;
     /* float: right; */
   }
 }
 
 @media screen and (max-width: 600px) {
   .social-input {
-    /* width: 300px; */
+    width: 300px;
     /* float: right; */
   }
 }
