@@ -446,14 +446,14 @@ ul.tag-list li input[type="checkbox"]:focus + label {
   }
 
   .social-input {
-    width: 275px;
+    /* width: 275px; */
     /* float: right; */
   }
 }
 
 @media screen and (max-width: 600px) {
   .social-input {
-    width: 300px;
+    /* width: 300px; */
     /* float: right; */
   }
 }
