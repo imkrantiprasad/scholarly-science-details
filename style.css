@@ -402,6 +402,14 @@ ul.tag-list li input[type="checkbox"]:focus+label {
   opacity: 1;
 }
 
+@media only screen and (max-width: 1024px) {
+  /* .social-input { */
+  /* width: 275px; */
+  /* float: right; */
+  /* } */
+
+}
+
 @media only screen and (max-width: 768px) {
   .job-section {
     width: 92%;
