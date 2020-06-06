@@ -21,6 +21,13 @@ body {
   margin-top: 40px;
 }
 
+.button-section {
+  width: 80%;
+  /* margin: 1px solid red !important; */
+  margin: auto;
+  margin-top: 40px;
+}
+
 p {
   font-size: 18px;
 }
@@ -244,7 +251,7 @@ ul.tag-list li input[type="checkbox"]:focus+label {
   background: linear-gradient(to right, #0066cc 0%, #66ffff 100%);
   border: none;
   padding: 10px 0px;
-  width: 180px;
+  width: 140px;
   border-radius: 25px;
   margin: auto !important;
 }
