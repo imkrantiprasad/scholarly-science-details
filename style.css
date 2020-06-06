@@ -39,12 +39,18 @@ ul.tag-list {
 ul.tag-list li {
   display: inline;
 }
-button img {
-  width: 18px;
-  height: 20px;
-  padding: 0;
-  margin: 0;
+
+span img {
+  width: 30px;
+  height: 26px;
+  /* padding: 0;
+  margin: auto; */
+  margin-top: -2px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: #2f8819;
 }
+
 label {
   font-weight: 400 !important;
 }
@@ -136,7 +142,7 @@ ul.tag-list li label::before {
   transition: transform 0.3s ease-in-out;
 }
 
-ul.tag-list li input[type="checkbox"]:checked + label {
+ul.tag-list li input[type="checkbox"]:checked+label {
   border: 2px solid rgba(172, 210, 235, 0.5);
   background-color: rgba(172, 210, 235, 0.5);
   color: black;
@@ -152,7 +158,7 @@ ul.tag-list li input[type="checkbox"] {
   opacity: 0;
 }
 
-ul.tag-list li input[type="checkbox"]:focus + label {
+ul.tag-list li input[type="checkbox"]:focus+label {
   border: 2px solid rgba(172, 210, 235, 0.5);
 }
 
@@ -230,7 +236,7 @@ ul.tag-list li input[type="checkbox"]:focus + label {
   background-color: white;
   /* border-radius: 25px; */
   padding: 5px 5px;
-  width: 300px;
+  /* width: 300px; */
   /* float: right; */
   /* margin-top: 5px; */
 }
@@ -402,6 +408,7 @@ ul.tag-list li input[type="checkbox"]:focus + label {
     width: 92%;
     /* margin: auto; */
   }
+
   .web-section {
     width: 92%;
   }
@@ -427,14 +434,14 @@ ul.tag-list li input[type="checkbox"]:focus + label {
   }
 
   .social-input {
-    width: 250px;
+    /* width: 250px; */
     /* float: right; */
   }
 }
 
 @media screen and (max-width: 600px) {
   .social-input {
-    width: 200px;
+    /* width: 200px; */
     /* float: right; */
   }
 }

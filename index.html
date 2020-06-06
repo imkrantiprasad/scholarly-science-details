@@ -191,69 +191,75 @@
               <p>On the web</p>
               <div class="row social-box" id="">
                 <div class="col-md-12">
-                  <button
-                    type="button"
-                    class="social"
-                    id="Linkedin"
-                    value="Create Element"
-                    onclick="linkedin()"
-                  >
-                    <i class="fa fa-linkedin"></i>
-                  </button>
-                  <button
-                    type="button"
-                    class="social"
-                    id="github-id"
-                    value="Create Element"
-                    onclick="github()"
-                  >
-                    <i class="fa fa-github"></i>
-                  </button>
-                  <button
-                    type="button"
-                    class="social"
-                    id="wechat-id"
-                    value="Create Element"
-                    onclick="weChat();"
-                  >
-                    <i class="fa fa-weixin"></i>
-                  </button>
-                  <button
-                    type="button"
-                    class="social"
-                    id="line-id"
-                    value="Create Element"
-                    onclick="line();"
-                  >
-                    <img
-                      src="https://img.icons8.com/ios/50/000000/line-me.png"
-                    />
-                  </button>
-                  <button
-                    type="button"
-                    class="social"
-                    id="dribbble-id"
-                    value="Create Element"
-                    onclick="dribble();"
-                  >
-                    <i class="fa fa-dribbble"></i>
-                  </button>
-                  <button
-                    type="button"
-                    class="social"
-                    id="portfolio"
-                    value="Create Element"
-                    onclick="other();"
-                  >
-                    <i class="fa fa-link"></i>
-                  </button>
+                  <span class="social" id="Linkedin"
+                    ><i class="fa fa-linkedin"></i
+                  ></span>
+                  <span class="social" id="github-id"
+                    ><i class="fa fa-github"></i
+                  ></span>
+
+                  <span class="social" id="wechat-id"
+                    ><i class="fa fa-weixin"></i
+                  ></span>
+
+                  <span class="social"><img src="LINE_APP.png" /></span>
+
+                  <span class="social" id="dribbble-id"
+                    ><i class="fa fa-dribbble"></i
+                  ></span>
+
+                  <span class="social" id="portfolio"
+                    ><i class="fa fa-link"></i
+                  ></span>
                 </div>
-                <div class="col-md-12 social-input-div" id="newLinkedin"></div>
-                <div class="col-md-12 social-input-div" id="newGithub"></div>
-                <div class="col-md-12 social-input-div" id="newWechat"></div>
-                <div class="col-md-12 social-input-div" id="newLine"></div>
-                <div class="col-md-12 social-input-div" id="newDribble"></div>
-                <div class="col-md-12 social-input-div" id="newOther"></div>
+                <div class="col-md-6 social-input-div" id="newLinkedin">
+                  <input
+                    type="url"
+                    class="social-input"
+                    placeholder="LinkedIn URL.."
+                    id="newInputBox"
+                  />
+                </div>
+                <div class="col-md-6 social-input-div" id="newGithub">
+                  <input
+                    type="url"
+                    class="social-input"
+                    placeholder="GitHub URL.."
+                    id="newInputBox"
+                  />
+                </div>
+                <div class="col-md-6 social-input-div" id="newWechat">
+                  <input
+                    type="text"
+                    class="social-input"
+                    placeholder="WeChat ID.."
+                    id="newInputBox"
+                  />
+                </div>
+                <div class="col-md-6 social-input-div" id="newLine">
+                  <input
+                    type="text"
+                    class="social-input"
+                    placeholder="Line ID.."
+                    id="newInputBox"
+                  />
+                </div>
+                <div class="col-md-6 social-input-div" id="newDribble">
+                  <input
+                    type="url"
+                    class="social-input"
+                    placeholder="Dribbble URL.."
+                    id="newInputBox"
+                  />
+                </div>
+                <div class="col-md-6 social-input-div" id="newOther">
+                  <input
+                    type="text"
+                    class="social-input"
+                    placeholder="Portfolio URL.."
+                    id="newInputBox"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -264,108 +270,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>
-    <script>
-      var i = 0;
-      function linkedin() {
-        if (i == 0) {
-          // First create a DIV element.
-          var txtNewInputBox = document.createElement("div");
-
-          // Then add the content (a new input box) of the element.
-          txtNewInputBox.innerHTML =
-            "<input type='url' class='social-input' placeholder='LinkedIn URL..' id='newInputBox'>";
-
-          // Finally put it where it is supposed to appear.
-          document.getElementById("newLinkedin").appendChild(txtNewInputBox);
-        }
-        i++;
-      }
-    </script>
-    <script>
-      var j = 0;
-      function github() {
-        if (j == 0) {
-          // First create a DIV element.
-          var txtNewInputBox = document.createElement("div");
-
-          // Then add the content (a new input box) of the element.
-          txtNewInputBox.innerHTML =
-            "<input type='url' class='social-input' placeholder='GitHub URL..' id='newInputBox'>";
-
-          // Finally put it where it is supposed to appear.
-          document.getElementById("newGithub").appendChild(txtNewInputBox);
-        }
-        j++;
-      }
-    </script>
-    <script>
-      var k = 0;
-      function weChat() {
-        if (k == 0) {
-          // First create a DIV element.
-          var txtNewInputBox = document.createElement("div");
-
-          // Then add the content (a new input box) of the element.
-          txtNewInputBox.innerHTML =
-            "<input type='text' class='social-input' placeholder='WeChat ID..' id='newInputBox'>";
-
-          // Finally put it where it is supposed to appear.
-          document.getElementById("newWechat").appendChild(txtNewInputBox);
-        }
-        k++;
-      }
-    </script>
-    <script>
-      var l = 0;
-      function line() {
-        if (l == 0) {
-          // First create a DIV element.
-          var txtNewInputBox = document.createElement("div");
-
-          // Then add the content (a new input box) of the element.
-          txtNewInputBox.innerHTML =
-            "<input type='text' class='social-input' placeholder='Line ID..' id='newInputBox'>";
-
-          // Finally put it where it is supposed to appear.
-          document.getElementById("newLine").appendChild(txtNewInputBox);
-        }
-        l++;
-      }
-    </script>
-    <script>
-      var m = 0;
-      function dribble() {
-        if (m == 0) {
-          // First create a DIV element.
-          var txtNewInputBox = document.createElement("div");
-
-          // Then add the content (a new input box) of the element.
-          txtNewInputBox.innerHTML =
-            "<input type='url' class='social-input' placeholder='Dribbble URL..' id='newInputBox'>";
-
-          // Finally put it where it is supposed to appear.
-          document.getElementById("newDribble").appendChild(txtNewInputBox);
-        }
-        m++;
-      }
-    </script>
-    <script>
-      var n = 0;
-      function other() {
-        if (n == 0) {
-          // First create a DIV element.
-          var txtNewInputBox = document.createElement("div");
-
-          // Then add the content (a new input box) of the element.
-          txtNewInputBox.innerHTML =
-            "<input type='text' class='social-input' placeholder='Portfolio URL..' id='newInputBox'>";
-
-          // Finally put it where it is supposed to appear.
-          document.getElementById("newOther").appendChild(txtNewInputBox);
-        }
-        n++;
-      }
-    </script>
     <script>
       $(".facetwp-dropdown").attr("data-style", "form-control");
       $(".facetwp-dropdown").attr("data-live-search", "true");
