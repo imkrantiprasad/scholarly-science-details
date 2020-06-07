@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-color: white !important;
+  /* background-color: white !important; */
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -20,7 +20,7 @@ body {
   /* position: absolute; */
 }
 
-.text img {
+.illus-1 img {
   /* width: 100%; */
   width: 960px;
   height: 900px;
@@ -29,6 +29,12 @@ body {
   position: fixed;
   /* position: ; */
   /* border: 1px solid red; */
+}
+
+.illus-2 img {
+  height: 800px;
+  position: fixed;
+  margin-left: -70px;
 }
 
 .option {
@@ -437,7 +443,7 @@ ul.tag-list li input[type="checkbox"]:focus+label {
   /* float: right; */
   /* } */
   .illus-img {
-    display: none;
+    display: none !important;
   }
 }
 
