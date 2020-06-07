@@ -6,19 +6,14 @@ html {
 }
 
 body {
-  /* background-color: white !important; */
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  /* font-family: "Raleway", sans-serif !important; */
   font-family: "Arimo", sans-serif;
 }
 
 .text {
   text-align: center;
-  /* margin-bottom: -200px; */
-  /* z-index: 0; */
-  /* border: 1px solid red; */
   position: fixed;
   margin-top: 430px;
   margin-left: 100px;
@@ -30,15 +25,12 @@ body {
 }
 
 .illus-1 img {
-  /* width: 100%; */
   width: 960px;
   height: 900px;
   margin-left: -270px;
   margin-top: -70px;
   position: fixed;
   z-index: -1;
-  /* position: ; */
-  /* border: 1px solid red; */
 }
 
 .illus-2 img {
@@ -47,21 +39,14 @@ body {
   margin-left: -70px;
 }
 
-.option {
-  /* border: 1px solid red; */
-
-}
-
 .job-section {
   width: 80%;
-  /* margin: 1px solid red !important; */
   margin: auto;
   margin-top: 40px;
 }
 
 .button-section {
   width: 80%;
-  /* margin: 1px solid red !important; */
   margin: auto;
 }
 
@@ -71,12 +56,10 @@ p {
 
 .tags {
   font-size: 14px;
-  /* border: 1px solid red !important; */
 }
 
 ul.tag-list {
   list-style: none;
-  /* padding: 20px; */
   padding-left: 0;
 }
 
@@ -87,8 +70,6 @@ ul.tag-list li {
 span img {
   width: 30px;
   height: 26px;
-  /* padding: 0;
-  margin: auto; */
   margin-top: -2px;
   margin-left: -10px;
   margin-right: -10px;
@@ -105,13 +86,11 @@ label {
 
 .form-part {
   margin-bottom: 40px;
-  /* border: 1px solid red; */
 }
 
 .form-part p {
   margin-left: -15px;
   font-size: 18px !important;
-  /* border: 1px solid red; */
 }
 
 .form-part label {
@@ -122,7 +101,6 @@ label {
 select {
   padding: 8px 12px;
   border-radius: 25px;
-  /* color: white; */
   background-color: white !important;
 }
 
@@ -178,11 +156,9 @@ ul.tag-list li label::before {
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  /* font-family: "Font Awesome 5 Free"; */
   font-weight: 900;
   font-size: 14px !important;
   padding: 2px 6px 2px 2px;
-  /* content: "\f067" !important; */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -207,14 +183,12 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 }
 
 .skill-section {
-  /* border: 1px solid red; */
   width: 80%;
   margin: auto;
   margin-top: 40px;
 }
 
 .web-section {
-  /* border: 1px solid red; */
   width: 80%;
   margin: auto;
   margin-top: 40px;
@@ -261,7 +235,6 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 
 #line-id {
   background-color: rgb(18, 148, 13);
-  /* color: white; */
 }
 
 #dribbble-id {
@@ -277,11 +250,7 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 .social-input {
   border: 1px solid rgb(218, 213, 213);
   background-color: white;
-  /* border-radius: 25px; */
   padding: 5px 5px;
-  /* width: 300px; */
-  /* float: right; */
-  /* margin-top: 5px; */
 }
 
 .button {
@@ -447,11 +416,6 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 }
 
 @media only screen and (max-width: 1024px) {
-
-  /* .social-input { */
-  /* width: 275px; */
-  /* float: right; */
-  /* } */
   .illus-img {
     display: none !important;
   }
@@ -460,7 +424,6 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 @media only screen and (max-width: 768px) {
   .job-section {
     width: 92%;
-    /* margin: auto; */
   }
 
   .web-section {
@@ -489,13 +452,11 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 
   .social-input {
     width: 275px;
-    /* float: right; */
   }
 }
 
 @media screen and (max-width: 600px) {
   .social-input {
     width: 300px;
-    /* float: right; */
   }
 }
