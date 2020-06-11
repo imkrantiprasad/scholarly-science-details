@@ -38,7 +38,7 @@ body {
 .illus-2 img {
   height: 800px;
   position: fixed;
-  margin-left: -70px;
+  /* margin-left: -70px; */
 }
 
 .job-section {
