@@ -10,6 +10,8 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: "Arimo", sans-serif;
+  width: 96%;
+  margin-left: 2%;
 }
 
 .text {
