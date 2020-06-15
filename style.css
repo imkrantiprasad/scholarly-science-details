@@ -26,7 +26,7 @@ body {
   font-size: 17px;
 }
 
-.illus-1 img {
+.illus-1 svg {
   width: 960px;
   height: 900px;
   margin-left: -270px;
@@ -36,9 +36,8 @@ body {
 }
 
 .illus-2 img {
-  height: 800px;
+  height: 100%;
   position: fixed;
-  /* margin-left: -70px; */
 }
 
 .job-section {
